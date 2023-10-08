@@ -1,6 +1,8 @@
 import React from 'react';
 import './Groups.css';
 function Groups(props){
+
+    
     return(
         <div className='Group'>
             <div className='Circle'></div>

@@ -60,9 +60,9 @@ function Notepad(){
                     <div className="note_element" key={note.id}>
                         <div className='note_metadata'>
                             <div>{note.time}</div>
-                            <div>{note.date}</div>
+                            {<div>27th September 2023</div>/* <div>{note.date}</div> */}
                         </div>
-                        <div>{note.text}</div>
+                        <div className="note_text">{note.text}</div>
                     </div>
                     
                 ))
